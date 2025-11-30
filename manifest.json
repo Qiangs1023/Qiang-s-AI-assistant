@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Second Brain AI",
+  "version": "1.0.0",
+  "description": "An AI-powered content strategy partner that acts as your second brain.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Second Brain"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://cdn.tailwindcss.com https://aistudiocdn.com; object-src 'self'"
+  }
+}
